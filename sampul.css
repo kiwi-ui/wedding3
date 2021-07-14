@@ -1,0 +1,215 @@
+@font-face {
+  font-family: 'titaniaregular';
+  src: url('titania-webfont.woff2') format('woff2'),
+       url('titania-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'niconneregular';
+  src: url('niconne-regular-webfont.woff2') format('woff2'),
+       url('niconne-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+  /* Smartphones (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 320px) 
+  and (max-device-width : 480px) {
+  /* Styles */
+  }
+  
+  /* Smartphones (landscape) ----------- */
+  @media only screen 
+  and (min-width : 321px) {
+  /* Styles */
+  }
+  
+  /* Smartphones (portrait) ----------- */
+  @media only screen 
+  and (max-width : 320px) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait and landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) {
+  /* Styles */
+  }
+  
+  /* iPads (landscape) ----------- */
+  @media only screen 
+  and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : landscape) {
+  /* Styles */
+  }
+  
+  /* iPads (portrait) ----------- */
+  @media only screen 
+    and (min-device-width : 768px) 
+  and (max-device-width : 1024px) 
+  and (orientation : portrait) {
+  /* Styles */
+  }
+  
+  /* Desktops and laptops ----------- */
+  @media only screen 
+  and (min-width : 1224px) {
+  /* Styles */
+  }
+  
+  /* Large screens ----------- */
+  @media only screen 
+  and (min-width : 1824px) {
+  /* Styles */
+  }
+  
+  /* iPhone 4 ----------- */
+  @media
+  only screen and (-webkit-min-device-pixel-ratio : 1.5),
+  only screen and (min-device-pixel-ratio : 1.5) {
+  /* Styles */
+  }
+    
+    /* =======================================================
+    *
+    * 	Template Style 
+    *	Edit this section
+    *
+    * ======================================================= */
+  *{
+    box-sizing: border-box;
+  }
+
+
+html{
+background-size: cover;
+}
+body{
+margin: 0;
+height: 100%;
+}
+header{
+  padding: 5px 0px 0px 20px;
+  font-size: 30px;
+
+}
+h1{
+  font-size: 13px;
+  letter-spacing:5px;
+  font-stretch: 7px;
+  padding-left: 5px;
+  margin-top :2px;
+}
+.seksi0{
+  position: relative;
+  height:620px;
+  background-image: linear-gradient(#f9a4a1,#fbabad, #f9eae7,#ffeeed);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:auto;
+  margin-bottom:auto;
+  top:-10px;
+  padding-bottom: 250px;
+  }
+  
+
+  .container{
+    height: 480px;
+    width: 80%;
+    margin: 20px auto 20px auto;
+    top: 10%;
+    position: relative;
+    text-align: center;
+  }
+
+  
+  .foto{
+    height: 300px;
+    border-radius: 50%;
+    position: relative;
+  }
+
+  #foto{
+    z-index: 4;
+    position: relative;
+    max-height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 246px;
+   }
+  .namapasangan{
+    color:black;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    z-index: 4;
+    font-family:'niconneregular';
+    font-weight: bold;
+    word-spacing: 9px;
+    bottom: 36px;
+  }
+
+  .ucapan{
+    text-align: center;
+    font-size: 19px;
+    display: block;
+    position: relative;
+    z-index: 4;
+    font-family: "arial";
+    color:black;
+}
+
+  .tombol{
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 20px; 
+    z-index:4;
+    width: 72%;
+
+
+  }
+  button {
+    margin-right: auto;
+    font-size: 20px;
+    z-index: 4;
+    cursor: pointer;
+    width: 210px;
+    height: 43px;
+    border-radius: 25px 25px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    background: #fdedeb;
+    -webkit-box-shadow: 12px 12px 24px #d7c9c8, -12px -12px 24px #ffffff;
+    box-shadow: 12px 12px 24px #d7c9c8, -12px -12px 24px #ffffff;
+    position: relative;
+    border-radius: 50px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;    
+  }
+
+  
+   
+  .tombol {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 30px;
+    position: relative;
+    top:5%;
+    width: 200px;
+  }
+  
+ .bi-door-open{
+   height: 20px;
+   width: 20px;
+ } 
+ 
