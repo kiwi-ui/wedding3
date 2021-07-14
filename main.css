@@ -1,0 +1,892 @@
+@font-face {
+  font-family: 'titaniaregular';
+  src: url('titania-webfont.woff2') format('woff2'),
+       url('titania-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'niconneregular';
+  src: url('niconne-regular-webfont.woff2') format('woff2'),
+       url('niconne-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@-ms-viewport{
+  width: extend-to-zoom;
+  zoom: 1.0;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+/* Styles */
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+/* Styles */
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+/* Styles */
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+/* Styles */
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+/* Styles */
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+/* Styles */
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+/* Styles */
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+/* Styles */
+}
+
+/* iPhone 4 ----------- */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+/* Styles */
+}
+
+/* =======================================================
+  *
+  * 	Template Style 
+  *	Edit this section
+  *
+  * ======================================================= */
+
+  html{
+  background-image:linear-gradient(#f9a4a1,#fbabad, #f9eae7,#ffeeed);
+  margin: 0 0 0 0;
+  overflow-x: hidden;
+}
+  *{
+  box-sizing: border-box;
+  margin:0 0 0 0;
+}  
+body{ 
+  font-family: serif;
+  font-size: 18px;
+  font-weight: 300  ;
+  position: relative;
+  width: 100%;
+  margin: 0px auto 0px auto;
+  overflow-x: hidden;
+}
+
+#pageAudio{
+  position: fixed;
+  margin:auto; padding:10px;
+  z-index:4; }
+ 
+ 
+ button{ 
+  border:none; 
+  cursor:pointer; 
+  outline:none;
+  display: flex;
+  align-content: space-around;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto; 
+  border-radius:30px 30px;
+  border:white thick;
+  overflow-x: hidden;
+  margin-top:15px;
+}
+#button{
+  font-size: 15px;
+    font-family: cursive;
+    color: rgb(71, 70, 70);
+    border-radius: 5em / 5em;
+    width: 200px;
+    position: relative;
+}
+input{
+  height: 40px;
+    width: 100%;
+}
+ button#playpausebtn{	background:url(https://image.flaticon.com/icons/svg/189/189889.svg) no-repeat;
+   width:30px;
+   height:30px;}
+ 
+   
+  
+ 
+ 
+ 
+
+
+/* Style the navigation bar */
+.navbar {
+  height: 50px;
+  display: flex;
+  width: 99%;
+  background-color: rgba(217, 59, 101, 0.5);
+  overflow: auto;
+  z-index: 101;
+  bottom: 0;
+  overflow: hidden;
+  position: fixed;
+  transform: translateX(-50%);
+  left: 50%;
+  border-radius: 10px 10px 0 0 ;
+}
+
+.navbar1{
+  width: 100%;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+  
+}
+
+/* Navbar links */
+.navbar a {
+  text-align: center;
+  padding: 2px 4%;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+#icon{
+  width:30px;
+  padding-top: 1%;
+}
+/* Navbar links on mouse-over */
+.navbar a:hover {
+  background-color:rgb(1,1,1,0.5);
+}
+
+/* Current/active navbar link */
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: center;
+  
+  }
+}
+
+
+
+.seksi1{
+  position: relative;
+  width: 80%;
+  color: #F2E8DC;
+  margin:0px auto;
+  top:20px;
+  height: 450px;
+}
+
+.container1{
+  position: relative;
+  display: block;
+  text-align: center;
+  height: 450px;
+  box-shadow: grey;
+}
+
+#profil{
+  position:relative;
+  width:100%;
+  height:450px;
+  border-radius: 10px;
+}
+h1{
+  font-size: 15px;
+  position: relative;
+  margin-bottom:11px;
+}
+h2{
+  font-family: 'niconneregular';
+  font-size: 36px;
+  word-spacing: 5px;
+}
+h3{
+  font-size: 15px;
+  position: relative;
+  margin-top: 15px;  
+}
+
+
+
+#h1{
+  background-color: rgba(217, 59, 101, 0.5);
+  opacity: 100%;
+  top: 80px;
+  position: absolute;
+  float: left;
+  z-index: 13;
+  height: 230px;
+  width: 250px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: 3px solid aliceblue;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+
+
+  .sopan{
+    padding: 4px 0 4px 0;
+    font-family: cursive;
+
+  }
+  p span{
+    font-weight: 900;
+    border-top: 2px solid #128a34;
+    border-bottom: 2px solid #128a34;
+    padding: 5px 0px;
+    letter-spacing: 7px;
+    font-family: cursive;
+    top: 32px;
+    position: relative;
+  }
+
+
+.seksi2{
+  height: 400px;
+  width: 80%;
+  position: relative;
+  margin: 0px auto;
+  top: 20px;
+  border: thin solid white;
+
+}
+
+.container2{
+  height: 400px;
+  width: 100%;
+}
+.bunga2{
+  position: absolute;
+  top: 50%;
+  height: 250px;
+  text-align: center;
+  opacity: 70%;
+  transform: translate(50%,-50%);
+  right: 50%; 
+}
+
+.judul{
+  border-radius: 50%;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(217, 59, 101, 0.5);
+    text-align: center;
+    height: 110px;
+    position: relative;
+    bottom: 55px;
+    font-family: "niconneregular";
+    color:white;
+    font-size: 25px;
+    border: 1px solid white;
+}
+
+h4{
+  top:39px;
+  position: relative;
+  
+}
+
+.deskripsi1 {
+  position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+    margin: 0 auto;
+    height: 185px;
+}
+.pertemuan{
+  text-align: center;
+  font-size:30px ;
+  color: black;
+  opacity: 0.8;
+  font-family: "niconneregular";
+}
+.pertemuan1{
+  text-align: justify;
+  margin: 10px;
+}
+h5{
+    position: relative;
+    font-size: 11px;
+    color: #978e98;
+    background-color: rgba(255,255,255,0.5);
+    border-radius: 10px 10px;
+    padding:5px;
+}
+
+
+.logo1{
+  top:100px;
+}
+
+#logo1{
+  width: 150px;
+  height: 190px;
+  opacity: 90%;
+}
+#logo2{
+  position: relative;
+    width: 150px;
+    height: 190px;
+    display: inline-block;
+    z-index: 3;
+    margin-left: 21px;
+    bottom: 105px;
+    border-radius: 50%;
+}
+
+.foto2{
+  position: relative;
+  width: 100px;
+  height: 250px;
+  margin:25px 10px 25px 0px ;
+  background-color: grey;
+  display: inline-block;
+  }
+
+
+
+
+.seksi3{
+  position: relative;
+    height: 545px;
+    width: 80%;
+    margin: 0px auto;
+    border: thin solid white;
+    top:20px;
+}
+
+.backgroundimage{
+  position:relative;
+    top: 50%;
+    height: 250px;
+    margin: 0 auto;
+    text-align: center;
+    opacity: 70%;
+    transform: translate(0,-50%);
+}
+.container3{
+  display: block;
+    position: relative;
+    padding: 0 4px 0 4px;
+    height: 500px;
+    margin: 0 12px;
+    color: black;
+    font-weight: 300;
+    bottom: 254px;
+}
+.opening{
+  height: 400px;
+  width: 100%;
+  display: block;
+  padding: 5px;
+  text-align: center;
+}
+.assalamualaikum{
+  display: block;
+    font-size: 35px;
+    margin: 20px auto;
+    font-family: "niconneregular";
+    text-align: center;
+    width: 100%;
+}
+.dengan{
+  display: block;
+  font-size: 20px;
+  position: relative;
+  top:8px;
+}
+.cewek{
+  position: relative;
+  top:40px;
+  font-size: 30px;
+  font-family: "niconneregular";
+}
+.keterangan{
+  position: relative;
+  display: block;
+  top:37px;
+}
+.dan{
+  display: block;
+  position: relative;
+  top: 40px;
+  font-size: 40px;
+}
+
+.cowok{
+  position: relative;
+  top:40px;
+  font-size: 30px;
+  font-family: "niconneregular";
+}
+.dan .cowok .keterangan .cewek .assalamualaikum .opening {
+  display :block;
+}
+.seksi4 {
+  position: relative;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  border: thin solid white;  
+  top: 20px;
+  
+}
+.judulcountdown{
+  border-radius: 50%;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:rgba(217, 59, 101, 0.5);
+    text-align: center;
+    height: 110px;
+    position: relative;
+    font-family:"niconneregular";
+    color:white;
+    font-size: 25px;
+    bottom: 135px;
+    display: flex;
+    align-items: center;
+    border:thin solid white;
+
+}
+.container4{
+position: relative;
+height:150px;
+top:25%;
+
+}
+/*start timer*/
+.wrap {
+  position: relative;
+  display: flex; /* or inline-flex */
+  flex-direction: column; /* or usually or row */
+  justify-content: space-between;
+  align-items: center;
+
+  height: 100%;
+  width: 100%;
+  font-family: cursive;
+  font-size: 25px;
+  font-weight: 500;
+  bottom:140px;
+}
+
+
+
+.logo {
+  -ms-transform: rotate(-3deg); /* IE 9 */
+  -webkit-transform: rotate(-3deg); /* Safari */
+  transform: rotate(-3deg);
+  padding-top: 20px;
+}
+
+.logo a {
+  /* Google font: https://www.google.com/fonts/specimen/Kaushan+Script */
+  font-family: 'Kaushan Script', cursive;
+  color: black;
+  font-size: 36px;
+  padding: 10px;
+  opacity: 0.75;
+
+}
+
+.logo a .logo-alt {
+  color: #FFF;
+  font-size: 24px;
+}
+
+.logo a:hover, .logo a:focus {
+  text-decoration: none;
+  opacity: 1.0;
+}
+
+p {
+  margin: 0;  
+}
+
+#countdown {
+  color: black;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 100%;
+}
+
+#countdown .countdown-section {
+  border-right: thin solid white;
+    margin: 0;
+    color: black;
+    width: 90px;
+    text-align: center;
+    height: 90px;
+    border-radius: 30px;
+    background: #fbb7b8;
+    box-shadow: 20px 20px 60px #d59c9c, -20px -20px 60px #ffd2d4;}
+
+#countdown .countdown-section:last-child {
+}
+
+#countdown .countdown-section .h1{
+    display: block;
+    position: relative;
+    margin: 25% 0px 0px 0px;
+}
+
+#countdown .countdown-section .text-center {
+    font-size: 10px;
+    font-weight: 400;
+    margin:0 10px 10px 10px;
+}
+/*end timer1*/
+.seksimap{
+  position: relative;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    border: thin solid white;
+    top: 20px;
+}
+.judulmap{
+  border-radius: 50%;
+  width: 110px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color:rgba(217, 59, 101, 0.5);
+  text-align: center;
+  height: 110px;
+  position: relative;
+  font-family: "niconneregular";
+  color:white;
+  font-size: 25px;
+  bottom: 55px;
+  display: flex;
+  align-items: center;
+  border: thin solid white;
+}
+
+ 
+
+.seksi5{
+  position: relative;
+  height: 400px;
+  display: block;
+  color: #f2E8Dc;
+  width: 80%;
+  margin: 0 auto;
+  top: 20px;
+  border: thin solid white;
+}
+.judulgallery{
+  border-radius: 50%;
+  position: relative;  
+  width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(217, 59, 101, 0.5);
+    text-align: center;
+    height: 110px;
+    font-family: "niconneregular";
+    color: white;
+    font-size: 25px;
+    top:-56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: thin solid white;
+}
+.container5{
+  display: flex;
+    height: 250px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    position: relative;
+    top: 56%;
+    transform:translate(55%, -100%);
+    right: 50%;
+}
+.slide-container .prev,
+.slide-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: all 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.slide-container .prev:hover,
+.slide-container .next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+}
+
+.slide-container .prev {
+  left: 2px;
+}
+
+.slide-container .next {
+  right: 2px;
+}
+
+.dots-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.dots-container .dot {
+  cursor: pointer;
+  margin: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border-radius: 30px;
+  background: white;
+  box-shadow: 20px 20px 60px #d59c9c, -20px -20px 60px #ffd2d4;
+}
+
+.dots-container .dot.active {
+  border: 2px solid #d59c9c ;
+}
+
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+
+body h1 {
+  text-align: center;
+}
+
+.slide-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+.slide-container .slide {
+  display: none;
+  width: 100%;
+}
+
+.slide-container .slide.fade {
+  animation: fade 0.5s cubic-bezier(0.55, 0.085, 0.68, 0.53) both;
+}
+
+.slide-container .slide img {
+  width: 100%;
+}
+
+.seksi7{
+  position: relative;
+    height: 1400px;
+    margin: 0 auto;
+    color: #F2E8DC;
+    width: 80%;
+    margin: 0 auto;
+  top:20px;
+  border: thin solid white;
+}
+
+.judulharapan{
+  border-radius: 50%;
+  position: relative;  
+  width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(217, 59, 101, 0.5);
+    text-align: center;
+    height: 110px;
+    font-family:"niconneregular";
+    color:white;
+    font-size: 25px;
+    top:-56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: thin solid white;
+}
+.container7{
+  position: absolute;
+  display: block;
+  width: 100%;
+  margin-left:auto;
+  margin-right:auto;
+  top: 35%; 
+}
+.bunga3{
+  position: absolute;
+    top: 43%;
+    height: 500px;
+    text-align: center;
+    opacity: 55%;
+    width: 100%;
+    transform: translate(52%,-50%);
+    right: 50%;
+}
+
+#wpac-comment{
+width: 80%;
+    position: relative;
+    margin: 0 auto;
+    height: 400px;
+    overflow-y: scroll;
+}
+.ucapan{
+  font-family: "titaniaregular";
+  font-size: 15px;
+  width: 80%;
+  top:65px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+.ucapan br{
+  font-family: none;
+}
+
+.lanjutan{
+  font-family: cursive, Times, serif;
+  font-size: 15px;
+  position: relative;
+  top:25px;
+  font-weight: bold;
+  color: black;
+}
+
+.ucapanterimakasih{
+  font-family: cursive, Times, serif;
+  font-size: 20px;
+  position: relative;
+  font-weight: bold;
+  top:100px;
+  margin:0 auto;
+  text-align: center;
+  color: black;
+}
+
+.waalaikumsalam{
+  font-family: "titaniaregular";
+  font-size: 25px;
+  position: relative;
+  top:140px;
+  margin:0 auto;
+  text-align: center;
+  color: black;
+}
+.fotopenutup{
+  position: relative;
+  height: 400px;
+  top:50px;
+  text-align: center;
+  color: black;
+}
+.fotopenutup img{
+  text-align: center;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  top: 150px;
+}
+
+.seksi8{
+  text-align: center;
+  height: 110px;
+  width: 80%;
+  margin: 0 auto;
+  background-color: white;
+  bottom: 90px;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+}
+
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+.container8{
+  top: 50%;
+    transform: translate(0%,-50%);
+    position: relative;
+}
+.credits{
+  text-align: center;
+  font-family: cursive;
+  padding: 0;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram {
+  color:rgba(217, 59, 101, 0.5);
+  width: 100%;
+  padding: 0;
+}
