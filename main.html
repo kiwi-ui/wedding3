@@ -65,7 +65,10 @@
             
             <!--bottom navigation-->
             <nav class="navbar">
-                <div class="thewedding"></div>
+                <div class="thewedding">
+                    The <br> 
+                    Wedding
+                </div>
                 <div class="navbar1">
                     <a href="#seksi1" ><br>Home</a>
                     <a href="#seksi2" ><br>Story</a>
@@ -75,8 +78,14 @@
             </nav>
             <!--seksisatu(kotak isinya nama pengantin dan tanggal, backgroundnya foto pengantin berdua)-->
             <div class="seksi1" id=#seksi1>
-                    <div class="container1">
-                        <img id="profil" src="profil.png">
+                <div id="mySlider"></div>
+		        <div id="sliderNav">
+			<div id="sliderPrev" onclick="prevSlide();"><img src="images/prev-btn.png"></div>
+			<div id="sliderNext" onclick="nextSlide();"><img src="images/next-btn.png"></div>
+		</div>
+            </div>
+        <!--        <div class="container1">
+                        <img id="profil" src="Gallery_h1_14.jpg">
                         <div id="h1">
                             <h1>---- Feb 30 23 ----</h1>
                             <h2>Upin & Susanti</h2>
@@ -255,6 +264,7 @@
         <script src="galleryslide.js"></script>
         <script src="script.js"></script>
         <script src="counter.js"></script>
+        <script src="imgslider.js"></script>
     </body>
 
     
