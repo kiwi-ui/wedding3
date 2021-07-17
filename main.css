@@ -149,7 +149,7 @@ input{
 
 /* Style the navigation bar */
 .navbar {
-  height: 20%;
+  height: 85px;
   width: 100%;
   background-color: rgba(217, 59, 101, 0.5);
   z-index: 101;
@@ -162,11 +162,12 @@ input{
   flex-wrap: nowrap;
   flex-direction: row;
   justify-content: flex-end;
-}
+  top: 50%;
+  transform: translate(0,25%);}
 
 /* Navbar links */
 .navbar a {
-  padding: 4% 4% 0 0;
+  padding: 0 4% 0 0;
   text-align: center;
   color: white;
   text-decoration: none;
