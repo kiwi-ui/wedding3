@@ -220,16 +220,19 @@ h1{
   font-size: 15px;
   position: relative;
   margin-bottom:11px;
+  color: black;
 }
 h2{
   font-family: 'niconneregular';
   font-size: 36px;
   word-spacing: 5px;
+  color: black;
 }
 h3{
   font-size: 15px;
   position: relative;
-  margin-top: 15px;  
+  margin-top: 15px;
+  color: black;  
 }
 
 
@@ -243,11 +246,14 @@ h3{
     display: flex;
     justify-items: center;
     align-items: center;
-    border: 3px solid aliceblue;
     flex-wrap: nowrap;
     flex-direction: column;
     justify-content: center;
-    transform: translate(0, -50%);
+    transform: translate(0%, -50%);
+    background: rgba( 146, 229, 218, 0.30 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+border-radius: 10px;
+align-self: center;
 }
 
 
@@ -379,43 +385,40 @@ h5{
 
 .seksi3{
   position: relative;
-    height: 545px;
-    width: 80%;
+    height: 500px;
+    width: 100%;
     margin: 0px auto;
-    border: thin solid white;
-    top:20px;
+    border: thin solid;
 }
 
-.backgroundimage{
-  position:relative;
-    top: 50%;
-    height: 250px;
-    margin: 0 auto;
-    text-align: center;
-    opacity: 70%;
-    transform: translate(0,-50%);
-}
+
+
 .container3{
-  display: block;
+  display: flex;
     position: relative;
-    padding: 0 4px 0 4px;
     height: 500px;
-    margin: 0 12px;
     color: black;
     font-weight: 300;
-    bottom: 254px;
+    justify-content: center;
+    flex-direction: column;
 }
 .opening{
-  height: 400px;
-  width: 100%;
-  display: block;
-  padding: 5px;
-  text-align: center;
+  height: 425px;
+    width: 100%;
+    display: block;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+
 }
 .assalamualaikum{
   display: block;
     font-size: 35px;
-    margin: 20px auto;
+    margin: 0 auto;
     font-family: "niconneregular";
     text-align: center;
     width: 100%;
@@ -424,29 +427,24 @@ h5{
   display: block;
   font-size: 20px;
   position: relative;
-  top:8px;
 }
 .cewek{
   position: relative;
-  top:40px;
   font-size: 30px;
   font-family: "niconneregular";
 }
 .keterangan{
   position: relative;
   display: block;
-  top:37px;
 }
 .dan{
   display: block;
   position: relative;
-  top: 40px;
   font-size: 40px;
 }
 
 .cowok{
   position: relative;
-  top:40px;
   font-size: 30px;
   font-family: "niconneregular";
 }
@@ -460,7 +458,6 @@ h5{
   margin-right: auto;
   width: 80%;
   border: thin solid white;  
-  top: 20px;
   
 }
 .judulcountdown{
