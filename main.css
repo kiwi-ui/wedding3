@@ -389,7 +389,7 @@ h5{
 
 .seksi3{
   position: relative;
-    height: 550px;
+    height: 700px;
     width: 100%;
     margin: 0px auto;
     background-image: url(images/Gallery_h1_5.jpg);
@@ -403,7 +403,7 @@ h5{
 .container3{
   display: flex;
     position: relative;
-    height: 550px;
+    height: 700px;
     color: black;
     font-weight: 300;
     justify-content: center;
@@ -411,8 +411,6 @@ h5{
     border-radius: 10px;
     align-self: center;
     background: rgba( 255, 255, 255, 0.25 );
-    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-    border-radius: 10px;
     border: 1px solid rgba(219, 138, 138, 0.18);
   }
 .opening{
@@ -472,12 +470,11 @@ h5{
   height: 300px;
   margin-left: auto;
   margin-right: auto;
-  width: 80%;
-  border: thin solid white;  
+  background-color:#afb1ff;
+  
   
 }
 .judulcountdown{
-  border-radius: 50%;
     width: 110px;
     margin-left: auto;
     margin-right: auto;
@@ -488,11 +485,10 @@ h5{
     font-family:"niconneregular";
     color:white;
     font-size: 25px;
-    bottom: 135px;
+    bottom: 130px;
     display: flex;
     align-items: center;
     border:thin solid white;
-
 }
 .container4{
 position: relative;
@@ -505,7 +501,6 @@ top:25%;
   position: relative;
   display: flex; /* or inline-flex */
   flex-direction: column; /* or usually or row */
-  justify-content: space-between;
   align-items: center;
 
   height: 100%;
@@ -513,7 +508,6 @@ top:25%;
   font-family: cursive;
   font-size: 25px;
   font-weight: 500;
-  bottom:140px;
 }
 
 
@@ -551,10 +545,14 @@ p {
 
 #countdown {
   color: black;
-    display: flex;
-    justify-content: center;
+    display: inline-flex;
     z-index: 1;
     width: 100%;
+    justify-content: center;
+    flex-direction: row;
+    gap: 2%;
+    flex-wrap: nowrap;
+  
 }
 
 #countdown .countdown-section {
@@ -565,9 +563,17 @@ p {
     text-align: center;
     height: 90px;
     border-radius: 30px;
-    background: #fbb7b8;
-    box-shadow: 20px 20px 60px #d59c9c, -20px -20px 60px #ffd2d4;}
-
+  background: rgba(255,255,255,0.4);
+   border-radius: 10px;
+   border: 1px solid rgba(255,255,255,0.4);
+    position:relative;
+  color:white;
+  z-index:1;
+    backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+  background-blend-mode: hard-light; 
+}
 
 #countdown .countdown-section .h1{
     display: block;
@@ -606,10 +612,10 @@ p {
   font-family: "niconneregular";
   color:white;
   font-size: 25px;
-  bottom: 55px;
   display: flex;
   align-items: center;
   border: thin solid white;
+  bottom: 5px;
 }
 
  

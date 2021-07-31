@@ -40,5 +40,5 @@ function getTimeRemaining(endtime){
   
   // LAUNCH DATE
   // USE CHRISTMAS DAY so countdown is not a negative value for foreseeable future
-  var deadline = 'Juli 31 2021 00:00:00 UTC';
+  var deadline = 'Juli 31 2029 00:00:00 UTC';
   initializeClock('countdown', deadline);
