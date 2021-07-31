@@ -175,11 +175,12 @@ input{
   flex-direction: row;
   justify-content: flex-end;
   top: 50%;
-  transform: translate(0,25%);}
+  transform: translate(0,25%);
+}
 
 /* Navbar links */
 .navbar a {
-  padding: 0 4% 0 0;
+  padding: 0 2% 0 2%;
   text-align: center;
   text-decoration: none;
   font-size: 18px;
@@ -250,9 +251,12 @@ h3{
     flex-direction: column;
     justify-content: center;
     transform: translate(0%, -50%);
-    background: rgba( 146, 229, 218, 0.30 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-border-radius: 10px;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );border-radius: 10px;
 align-self: center;
 }
 
@@ -385,10 +389,13 @@ h5{
 
 .seksi3{
   position: relative;
-    height: 500px;
+    height: 550px;
     width: 100%;
     margin: 0px auto;
-    border: thin solid;
+    background-image: url(images/Gallery_h1_5.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 
@@ -396,14 +403,20 @@ h5{
 .container3{
   display: flex;
     position: relative;
-    height: 500px;
+    height: 550px;
     color: black;
     font-weight: 300;
     justify-content: center;
     flex-direction: column;
-}
+    border-radius: 10px;
+    align-self: center;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    border-radius: 10px;
+    border: 1px solid rgba(219, 138, 138, 0.18);
+  }
 .opening{
-  height: 425px;
+  height: 505px;
     width: 100%;
     display: block;
     text-align: center;
@@ -450,6 +463,9 @@ h5{
 }
 .dan .cowok .keterangan .cewek .assalamualaikum .opening {
   display :block;
+}
+.ketwaktu{
+  margin:20px 0 10px 0;
 }
 .seksi4 {
   position: relative;
