@@ -78,7 +78,11 @@ only screen and (-webkit-min-device-pixel-ratio : 1.5),
 only screen and (min-device-pixel-ratio : 1.5) {
 /* Styles */
 }
-
+:root{
+  --bg1:rgb(255, 245, 235);
+  --bg2:rgb(222, 237, 240);
+  --bg3:rgb(244, 199, 171, 0.25);
+}
 /* =======================================================
   *
   * 	Template Style 
@@ -153,6 +157,7 @@ input{
   z-index: 101;
   position:fixed;
   color:black;
+  background-color:rgb(255, 245, 235, 0.5);
 }
 .thewedding{
   float: left;
@@ -210,9 +215,17 @@ input{
   position: relative;
   color: #F2E8DC;
   height: 660px;
-  background-color: #6fc7ed;
 }
-
+.container1{
+  display: flex;
+    height: 660px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
 a {
   color: black;
 	text-decoration: none;
@@ -251,7 +264,7 @@ h3{
     flex-direction: column;
     justify-content: center;
     transform: translate(0%, -50%);
-    background: rgba( 255, 255, 255, 0.25 );
+    background-color:var(--bg3);
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
@@ -278,17 +291,44 @@ align-self: center;
 
 .seksi2{
   height: 400px;
-  width: 80%;
   position: relative;
   margin: 0px auto;
-  top: 20px;
-  border: thin solid white;
+  background-color: var(--bg1);
+}
 
+.judulstory{
+  border-radius: 50%;
+    position: absolute;
+    width: 110px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bg3);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
+    text-align: center;
+    height: 110px;
+    font-family: "niconneregular";
+    color: white;
+    font-size: 25px;
+    top: -56px;
+    display: flex;
+    border: thin solid white;
+    justify-content: center;
+    align-items: center;
+    transform: translate(50%, 0);
+    right: 50%;
 }
 
 .container2{
   height: 400px;
-  width: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 .bunga2{
   position: absolute;
@@ -392,10 +432,7 @@ h5{
     height: 700px;
     width: 100%;
     margin: 0px auto;
-    background-image: url(images/Gallery_h1_5.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-color: var(--bg1);
 }
 
 
@@ -408,10 +445,8 @@ h5{
     font-weight: 300;
     justify-content: center;
     flex-direction: column;
-    border-radius: 10px;
     align-self: center;
     background: rgba( 255, 255, 255, 0.25 );
-    border: 1px solid rgba(219, 138, 138, 0.18);
   }
 .opening{
   height: 505px;
@@ -470,7 +505,7 @@ h5{
   height: 360px;
   margin-left: auto;
   margin-right: auto;
-  background-color:#afb1ff;
+  background-color:var(--bg1);
   
   
 }
@@ -478,7 +513,13 @@ h5{
     width: 110px;
     margin-left: auto;
     margin-right: auto;
-    background-color:rgba(217, 59, 101, 0.5);
+    background-color:var(--bg3);
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
     text-align: center;
     height: 110px;
     position: relative;
@@ -489,6 +530,7 @@ h5{
     display: flex;
     align-items: center;
     border:thin solid white;
+    border-radius: 50%;
 }
 .container4{
 position: relative;
@@ -557,7 +599,6 @@ p {
 #countdown .countdown-section {
   border-right: thin solid white;
     margin: 0;
-    color: black;
     width: 90px;
     text-align: center;
     height: 90px;
@@ -566,7 +607,6 @@ p {
    border-radius: 10px;
    border: 1px solid rgba(255,255,255,0.4);
     position:relative;
-  color:white;
   z-index:1;
     backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
@@ -588,23 +628,29 @@ p {
 /*end timer1*/
 .seksimap{
   position: relative;
-    height: 550px;
+    height: 510px;
     margin-left: auto;
     margin-right: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     align-content: center;
-    background-color: #6fc7ed;
+    background-color:var(--bg2);
 }
 .judulmap{
   border-radius: 50%;
   width: 110px;
   margin-left: auto;
   margin-right: auto;
-  background-color:rgba(217, 59, 101, 0.5);
+  background-color:var(--bg3);
   text-align: center;
   height: 110px;
+  box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
   position: relative;
   font-family: "niconneregular";
   color:white;
@@ -619,21 +665,29 @@ p {
 
 .seksi5{
   position: relative;
-  height: 660px;
+  height: 400px;
   display: block;
   color: #f2E8Dc;
   width: 100%;
   margin: 0 auto;
-  top: 0px;
-  border: thin solid white;
-
+background-color:var(--bg1);
 }
 .container5{
   display: flex;
-    height: 660px;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    position: relative;
+  height: 400px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: relative;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg2);
+  gap:8%;
+}
+.fotocwk{
+  display: block;
+  height: 150px;
+  width: 150px;
 }
 .slide-container .prev,
 .slide-container .next {
@@ -727,11 +781,8 @@ body h1 {
   position: relative;
     height: 1400px;
     margin: 0 auto;
-    color: #F2E8DC;
-    width: 80%;
-    margin: 0 auto;
-  top:20px;
-  border: thin solid white;
+    background-color: var(--bg2);
+    
 }
 
 .judulharapan{
@@ -740,7 +791,7 @@ body h1 {
   width: 110px;
     margin-left: auto;
     margin-right: auto;
-    background-color: rgba(217, 59, 101, 0.5);
+    background-color: var(--bg3);
     text-align: center;
     height: 110px;
     font-family:"niconneregular";
@@ -751,6 +802,12 @@ body h1 {
     align-items: center;
     justify-content: center;
     border: thin solid white;
+    box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-radius: 10px;
 }
 .container7{
   position: absolute;
@@ -772,7 +829,6 @@ body h1 {
 }
 
 #wpac-comment{
-width: 80%;
     position: relative;
     margin: 0 auto;
     height: 400px;
@@ -839,10 +895,9 @@ width: 80%;
 
 .seksi8{
   text-align: center;
-  height: 110px;
-  width: 80%;
+  height: 200px;
   margin: 0 auto;
-  background-color: white;
+  background-color:var(--bg1);
   bottom: 90px;
   position: relative;
   border-radius: 0 0 10px 10px;
