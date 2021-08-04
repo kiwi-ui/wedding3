@@ -110,7 +110,9 @@ body{
 #pageAudio{
   position: fixed;
   margin:auto; padding:10px;
-  z-index:4; }
+  z-index:4; 
+  top:85px;
+}
  
  
  button{ 
@@ -180,7 +182,8 @@ input{
   flex-direction: row;
   justify-content: flex-end;
   top: 50%;
-  transform: translate(0,25%);
+  align-items: center;
+  height: 85px;
 }
 
 /* Navbar links */
