@@ -306,13 +306,11 @@ align-self: center;
     box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border-radius: 10px;
     text-align: center;
     height: 110px;
     font-family: "niconneregular";
-    color: white;
+    color: black;
     font-size: 25px;
     top: -56px;
     display: flex;
@@ -524,7 +522,7 @@ h5{
     height: 110px;
     position: relative;
     font-family:"niconneregular";
-    color:white;
+    color:black;
     font-size: 25px;
     bottom: 55px;
     display: flex;
@@ -648,12 +646,9 @@ p {
   box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border-radius: 10px;
   position: relative;
   font-family: "niconneregular";
-  color:white;
+  color:black;
   font-size: 25px;
   display: flex;
   align-items: center;
@@ -673,21 +668,19 @@ p {
 background-color:var(--bg1);
 }
 .container5{
-  display: flex;
   height: 400px;
-  flex-direction: row;
-  flex-wrap: nowrap;
   position: relative;
   align-content: center;
   justify-content: center;
   align-items: center;
   background-color: var(--bg2);
-  gap:8%;
+  display: inline-flex;
+  width: 100%;
 }
 .fotocwk{
   display: block;
-  height: 150px;
-  width: 150px;
+  height: 125px;
+  width: 125px;
 }
 .slide-container .prev,
 .slide-container .next {
@@ -795,7 +788,7 @@ body h1 {
     text-align: center;
     height: 110px;
     font-family:"niconneregular";
-    color:white;
+    color:black;
     font-size: 25px;
     top:-56px;
     display: flex;
@@ -805,9 +798,7 @@ body h1 {
     box-shadow: 0 8px 32px 0 rgb(31 38 135 / 37%);
     backdrop-filter: blur( 4px );
     -webkit-backdrop-filter: blur( 4px );
-    border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    border-radius: 10px;
 }
 .container7{
   position: absolute;
