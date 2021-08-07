@@ -821,6 +821,7 @@ body h1 {
     width: 100%;
     transform: translate(52%,-50%);
     right: 50%;
+    z-index: -1;
 }
 
 #wpac-comment{
@@ -844,19 +845,17 @@ body h1 {
 }
 
 .lanjutan{
-  font-family: cursive, Times, serif;
+  font-family: "titaniaregular";
   font-size: 15px;
   position: relative;
   top:25px;
-  font-weight: bold;
   color: black;
 }
 
 .ucapanterimakasih{
-  font-family: cursive, Times, serif;
+  font-family: "titaniaregular";
   font-size: 20px;
   position: relative;
-  font-weight: bold;
   top:100px;
   margin:0 auto;
   text-align: center;
